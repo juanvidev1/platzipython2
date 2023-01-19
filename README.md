@@ -1,5 +1,7 @@
 # **JuanviDev Python II Platzi Course Portfolio**
 
+![JuanviDev](./logoJuanvi_1.svg)
+
 ## In this repo you will find
 
 * Exercises developed trough the course
