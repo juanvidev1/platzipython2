@@ -5,4 +5,4 @@
 * Exercises developed trough the course
 * A final project that probably will be published on replit
 
-![Python](PythonLogo.jpeg)
+![Python](PythonLogo.svg)
