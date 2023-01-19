@@ -1,4 +1,4 @@
-<span style="color:blue"># **JuanviDev Python II Platzi Course Portfolio**</span>
+# <span style="color:blue">**JuanviDev Python II Platzi Course Portfolio**</span>
 
 ## In this repo you will find
 
