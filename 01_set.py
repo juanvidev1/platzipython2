@@ -1,11 +1,12 @@
 """
 EN - A set is a data element wich allows to add dara from any kind inside of it. An interesting thing about the sets it's that this data structure 
 delete all duplicated elements inside it. Surely it will let you create your set with duplicated elements, but when you will be using it, the duplicates 
-will not exist
+will not exist. Other interesting thing is that the print of a set will be randon, the elements will print in different order everytime in case of sets of strings
 
 ES - Un conjunto es un elemento que permite agrupar datos de distintos tipos dentro de si. Una cosa interesante es que no permite los elementos 
 duplicados se eliminan automáticamente de un conjunto. Cuando crees el conjunto con elementos duplicados, no te va poner problema, 
-pero cuando vayas a utilizar la data de ese conjunto, los elementos duplicados, ya no existirán
+pero cuando vayas a utilizar la data de ese conjunto, los elementos duplicados, ya no existirán. Otra cosa interesante en que cada print de un conjunto,
+el orden de los elementos va a ser diferente cada vez cuando son strings 
 """
 
 """
@@ -36,6 +37,16 @@ ES - También puedes obtener un conjunto de otro tipo de dato, por ejemplo de un
 """
 set_from_string = set('Hola')
 print(set_from_string)
+
+"""
+EN - Same example from above but with a tuple
+ES - El mismo ejemplo anterior, pero con una tupla
+"""
+set_from_tuple = set(('abc', 'cfg', 'dse', 'abc'))
+print(set_from_tuple)
+
+set_numbers_2 = {2, 1, 6, 3, 4, 7, 5}
+print(set_numbers_2)
 
 """
 EN - To see this code working you should write the command 'python 01_set.py' on the shell. 
