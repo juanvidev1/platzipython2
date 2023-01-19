@@ -45,8 +45,19 @@ ES - El mismo ejemplo anterior, pero con una tupla
 set_from_tuple = set(('abc', 'cfg', 'dse', 'abc'))
 print(set_from_tuple)
 
-set_numbers_2 = {2, 1, 6, 3, 4, 7, 5}
-print(set_numbers_2)
+"""
+EN - We can also get a set from other data structures like lists as the following example shows it. This could be very helpful in that cases where we need to
+go over on a list that has duplicated elements and obtain the same list without the duplicated elements, like the example also shows it
+
+ES - También podemos obtener un conjunto de otras estructuras de datos como las listas como lo muestra el siguiente ejemplo. Esto es muy útil en casos en los que
+necesitamos recorrer una lista que tiene elementos duplicados y obtener otra lista con los elementos una única vez, como este ejemplo también lo muestra
+"""
+numbers = [1,2,3,1,2,3,4]
+set_numbers = set(numbers)
+print(set_numbers)
+unique_numbers = list(set_numbers)
+print(unique_numbers)
+
 
 """
 EN - To see this code working you should write the command 'python 01_set.py' on the shell. 
