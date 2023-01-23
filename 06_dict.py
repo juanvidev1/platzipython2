@@ -50,9 +50,11 @@ print(unique)
 
 """
 EN - As you can see the sintax is the same that the other exercises, the only thing that changes is the if conditional, because we're telling it that only
-extracts the vowel letters from the text string; that's why we use "in 'aeiou'" way to extract only the vowels in the text
+extracts the vowel letters from the text string; that's why we use "in 'aeiou'" way to extract only the vowels in the text (the statement "in" refers to smthg
+that is inside a group of elements in python)
 
 ES - Como se puede ver la sintaxis es la misma que en los otros ejercicios, lo único que cambia es el el condicional porque le estamos diciendo que sólo extraiga
-las vocales del string "text"; por eso es que utilizamos la forma "in 'aeiou'" dentro del if para extraer sólo las vocales del texto ingresado
+las vocales del string "text"; por eso es que utilizamos la forma "in 'aeiou'" dentro del if para extraer sólo las vocales del texto ingresado (la declaración
+"in" se refiere a algo que está dentro de un grupo de elementos en python)
 """
 
