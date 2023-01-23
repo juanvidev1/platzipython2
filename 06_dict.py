@@ -34,3 +34,23 @@ Advertencia: No olvidar que si van a iterar sobre el diccionario de población d
 los pares llave:valor y no tener errores en la iteración
 Finalmente utilizamos el condicional, tal como lo hicimos con las listas, para obetener los valores de población que se ajusten a la condición establecida. 
 """
+
+"""
+EN - We can also create dictionaries from a string. You can take a word or a phrase and iterate over it so you can obtain specific elements from that string.
+Next we're going to create a dictionary obtaining the vowels from an string phrase using the dict comprhension method:
+
+ES - También podemos crear diccionarios de una cadena de caracteres. Se puede tomar una palabra o una frase e iterar sobre ella de manera que se puedan obtener
+elementos específicos de la misma. En el siguiente ejemplo vamos a crear un diccionario obteniendo solamente las voxales de una frase, utilizando la dict
+comprehension:
+"""
+text = "Hola soy Juanvi"
+unique = {c: c.upper() for c in text if c in "aeiou"}
+print(unique)
+
+"""
+EN - As you can see the sintax is the same that the other exercises, the only thing that changes is the if conditional, because we're telling it that only
+extracts the vowel letters from the text string; that's why we use "in 'aeiou'" way to extract only the vowels in the text
+
+ES - Como se puede ver la sintaxis es la misma que en los otros ejercicios, lo único que cambia es el el condicional porque le estamos diciendo que sólo extraiga
+las vocales del string "text"; por eso es que utilizamos la forma "in 'aeiou'" dentro del if para extraer sólo las vocales del texto ingresado
+"""
