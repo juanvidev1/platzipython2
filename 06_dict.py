@@ -33,6 +33,7 @@ de población que obtuvimos en la línea 10. Estos pares llave:valor se toman de
 Advertencia: No olvidar que si van a iterar sobre el diccionario de población de la línea 10, se debe hacer con el método .items() para obtener correctamente
 los pares llave:valor y no tener errores en la iteración
 Finalmente utilizamos el condicional, tal como lo hicimos con las listas, para obetener los valores de población que se ajusten a la condición establecida. 
+<<<<<<< HEAD
 """
 
 """
@@ -54,3 +55,4 @@ extracts the vowel letters from the text string; that's why we use "in 'aeiou'" 
 ES - Como se puede ver la sintaxis es la misma que en los otros ejercicios, lo único que cambia es el el condicional porque le estamos diciendo que sólo extraiga
 las vocales del string "text"; por eso es que utilizamos la forma "in 'aeiou'" dentro del if para extraer sólo las vocales del texto ingresado
 """
+
