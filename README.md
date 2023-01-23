@@ -10,7 +10,7 @@
 ### Modules completed
 
 * [x] Sets
-* [ ] Comprehension
+* [x] Comprehension
 * [ ] Functions
 * [ ] Modules
 * [ ] Error handling and file manipulation
