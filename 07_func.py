@@ -43,10 +43,19 @@ addition('Hello', 'Juanvi')
 addition('Juanvi', str(4)) 
 
 """
-EN - The example above is an addition function. It needs 2 parameters to execute the operation. In python the + operation allows you to add two numbers or
-concat two strings, so in this function you can send numbers or strings and it will work but you can't use a number and a string as parameters unless you
-convert the number to string. 
-For example if I call the function with the example of the line 40 the output will be the int number 8.
+EN - The example above is an addition function. It needs 2 parameters to execute the operation. In python the + operator allows you to add two numbers or
+concat two strings, so in this function you can send numbers or strings and it will work 
+Warning: You can't use a number and a string as parameters unless you convert the number to string. 
+For example if I call the function with the example of the line 40 the output will be the int number 8 (the addition of 3 and 5 that were the nums used as params).
 If I call the function with the example of the line 41 the output will be HelloJuanvi
 If I use the commented line 42 the output will be an error cause you can't concatenate strings with numbers.
+If I use the line 43, where I converted the number to a string, the output will be Juanvi4
+
+ES - El ejemplo de arriba es un ejemplo de una función de suma. Necesita dos parámetros para ejecutar la operación. En python el operador + permite sumar
+dos números o concatenar dos strings, así que en esta función puedes enviar strings o números y funcionará igual.
+Advertencia: No puedes utilizar como argumentos un número y una string juntas a menos que conviertas el número a string
+Por ejemplo, si llamo la función con el ejemplo de la línea 40 obtendré una salida del número entero 8 (la suma de 3 y 5 que puse como parámetros de entrada)
+Si llamo a la función como en la línea 41 tendré una salida de la string "HelloJuanvi"
+Si llamara la función como en la línea 42 tendría un error porque no puedo sumar strings y números de forma directa
+Si llamo la función como en la línea 43 obtendré una salida de la string "Juanvi4"
 """
