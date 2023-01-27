@@ -51,6 +51,8 @@ If I call the function with the example of the line 41 the output will be HelloJ
 If I use the commented line 42 the output will be an error cause you can't concatenate strings with numbers.
 If I use the line 43, where I converted the number to a string, the output will be Juanvi4
 
+Just as a final comment I can call a function inside other function if is needed. The next example shows that 
+
 ES - El ejemplo de arriba es un ejemplo de una función de suma. Necesita dos parámetros para ejecutar la operación. En python el operador + permite sumar
 dos números o concatenar dos strings, así que en esta función puedes enviar strings o números y funcionará igual.
 Advertencia: No puedes utilizar como argumentos un número y una string juntas a menos que conviertas el número a string
@@ -58,4 +60,26 @@ Por ejemplo, si llamo la función con el ejemplo de la línea 40 obtendré una s
 Si llamo a la función como en la línea 41 tendré una salida de la string "HelloJuanvi"
 Si llamara la función como en la línea 42 tendría un error porque no puedo sumar strings y números de forma directa
 Si llamo la función como en la línea 43 obtendré una salida de la string "Juanvi4"
+
+Cómo comentario final se puede llamar una función dentro de otra función si se necesitara. El siguiente ejemplo es muestra de ello:
+"""
+
+def my_print(text):
+    print(text * 2)
+
+def suma(a, b):
+    my_print(a + b)
+
+suma(5, 6)
+
+"""
+EN - In the last excersise you can see that we have 2 functions. The first one is a custom made print wich prints a text (given as an argument in the function
+parameters) 2 times. The second function is a classic addition func where you must give 2 numbers as arguments to be added and print the result of that operation.
+The important thing here is that you can pass the custom print function inside the addition function and obtain a different result that you would get using the
+normal print. But the point is that you can call functions inside other functions to do more complex things in your applications.
+
+ES - En el último ejercicio se puede ver que tenemos dos funciones. La primera es una función de print propia que imprimirá cualquier texto que se pase como
+argumento en los parámetros de la función, 2 veces. La segunda función es una función clásica de suma que recibe dos argumentos y luego los suma para imprimir
+el resultado de esa operación. Lo importante aquí es que puedes pasar la función propia de print dentro de la función de suma obteniendo un resultado diferente
+al que obtendrías usando un print normal, pero el punto es que puedes utilizar una función dentro de otras para hacer cosas más complejas en tus aplicaciones
 """
