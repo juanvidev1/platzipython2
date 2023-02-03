@@ -1,2 +1,5 @@
 # Ignore binaries
 *.pdf
+
+# Not nedeed files
+tests.py
