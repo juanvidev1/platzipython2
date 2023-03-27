@@ -11,7 +11,7 @@ It's important to note that if the original list has 4 elements, the transformed
 of elements
 
 ES - map() --> Es una función de python que transforma elementos dentro de una lista dada que contenga esos
-elementos. POr ejemplo si tengo la siguiente lista:
+elementos. Por ejemplo si tengo la siguiente lista:
     viveres = ['vaca', 'pollo', 'maíz', 'papa']
 Puedo utilizar el método map para transformar esos elementos, a través de una función. En este ejemplo usaremos
 la función cocinar() y cuando utilice map para transformar los elementos de la lista de víveres a través de la
@@ -33,3 +33,4 @@ print(numbers_v2)
 # Here we transformed the simple number list using lambda functions and the map method
 numbers_v3 = list(map(lambda i : i * 2, numbers)) # The map method receives a function argument and a list argument --> The function will perform the transformation of the elements, the list argument contains the elements to be converted
 print(numbers_v3)
+
