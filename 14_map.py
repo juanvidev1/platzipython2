@@ -34,3 +34,20 @@ print(numbers_v2)
 numbers_v3 = list(map(lambda i : i * 2, numbers)) # The map method receives a function argument and a list argument --> The function will perform the transformation of the elements, the list argument contains the elements to be converted
 print(numbers_v3)
 
+"""
+EN - But we can iterate over 2 lists. In that case the result list takes the lenght of the shortest one. Let's see 
+how this works
+
+ES - Pero también podemos iterar sobre 2 listas. En ese caso la lista resultante tomará la longitud de la más corta.
+Veamos cómo funciona esto
+"""
+numbers_1 = [1, 2, 3, 4]
+numbers_2 = [5, 6, 7]
+
+print(numbers_1)
+print(numbers_2)
+
+numbers_v4 = list(map(lambda x, y: x + y, numbers_1, numbers_2))
+print(numbers_v4)
+# The response for the numbers_v4 list will have a lenght of 3 numbers, because the lenght of numbers_2 is shorter
+# numbers_v4 = [6, 8, 10] -> [0] = 1 + 5, [1] = 2 + 6, [2] = 3 + 7 --> The 4 is not taken in account cause there's not a number to add to it
