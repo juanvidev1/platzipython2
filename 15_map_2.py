@@ -31,6 +31,7 @@ price = list(map(lambda items: items['price'], items))
 #print(products) 
 #Result = [{'product': 'camisa', 'price': 100}, {'product': 'pantalones', 'price': 120}, {'product': 'chaqueta', 'price': 200}, {'product': 'medias', 'price': 40}]
 print(price)
+# It's important to say that the original items list will not be affected by map here!!!... It will create a new list diff from the original one
 
 """
 EN - In the last case we extracted the price from each dictionary item in the list. But we could transform this to 
@@ -52,3 +53,5 @@ def add_taxes(items):
 taxes_list = list(map(add_taxes, items))
 print(taxes_list)
 # The print will have the new list with the field with the calculated tax value for each item in the original list
+# In this case, when we use the function in the line 48 we are affecting the original list (items) and the new list (taxes_list).
+#We need to be really carefully here cause wue could have errors with this change if we're using the items list without taxes in other part of our code
